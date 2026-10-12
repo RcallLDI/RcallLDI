@@ -19,5 +19,7 @@
        +-----------------------+
 ```
 
-> **rcall init_bigIdea**  ; 
-> **ldi r31, 0xFF**       ;
+```assembly
+rcall init_bigIdea  ; Initialize the big idea
+ldi r31, 0xFF       ; Load the highest register with maximum power
+```
